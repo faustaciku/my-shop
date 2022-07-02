@@ -34,7 +34,7 @@ h3 {
   text-align: center;
   display: block;
 }
-button {
+.add-buttons {
   margin: 10px auto;
   display: block;
   padding: 20px;
@@ -46,4 +46,59 @@ button {
 }
 button:hover {
   cursor: pointer;
+}
+.remove-buttons {
+  padding: 10px;
+  background: rgb(192, 92, 192);
+  border: 1px solid rgb(192, 92, 192);
+  border-radius: 10px;
+  margin-left: 70px;
+  color: white;
+}
+
+.cart {
+  background: rgb(255, 255, 255);
+  margin: 150px auto;
+  border-radius: 40px;
+  width: 50%;
+  display: block;
+  padding: 20px;
+}
+#cart-title {
+  color: rgb(104, 103, 103);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cart-header {
+  align-items: center;
+  display: flex;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.cart-item {
+  width: 40%;
+  margin-bottom: 10px;
+}
+.cart-price {
+  width: 20%;
+}
+
+.cart-quantity-input {
+  width: 12%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(167, 128, 167);
+}
+.cart-total {
+  justify-content: end;
+  display: flex;
 }
