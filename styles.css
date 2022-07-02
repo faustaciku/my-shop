@@ -4,10 +4,16 @@ body {
 h1 {
   text-align: center;
   font-size: 60px;
+  background: rgb(214, 57, 214);
+  padding: 20px;
+  color: white;
+  font-family: "Rubik Moonrocks", cursive;
+  margin-top: 0;
 }
 img.item-image {
   width: 330px;
   height: 400px;
+  border-radius: 10px;
 }
 .items {
   display: flex;
@@ -23,11 +29,17 @@ h2 {
   margin-bottom: 0;
   margin-top: 100px;
   text-align: center;
+  font-family: "Abril Fatface", cursive;
 }
 h3 {
   text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  border-bottom: 2px solid rgb(192, 92, 192);
+  border-left: 2px solid rgb(192, 92, 192);
+  padding: 5px;
+  width: fit-content;
   font-size: 25px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .price {
   font-size: 20px;
