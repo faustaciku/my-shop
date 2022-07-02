@@ -5,7 +5,7 @@ h1 {
   text-align: center;
   font-size: 60px;
 }
-img {
+img.item-image {
   width: 330px;
   height: 400px;
 }
