@@ -20,15 +20,22 @@ img {
 }
 h2 {
   font-size: 34px;
-  margin-left: 150px;
+  margin-bottom: 0;
+  margin-top: 100px;
+  text-align: center;
 }
 h3 {
   text-align: center;
   font-size: 25px;
   margin-bottom: 5px;
 }
+.price {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+}
 button {
-  margin: 15px auto;
+  margin: 10px auto;
   display: block;
   padding: 20px;
   font-size: 15px;
